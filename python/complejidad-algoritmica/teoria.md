@@ -8,6 +8,7 @@ La **Notación Big O** es una métrica en lenguaje matemático que se utiliza en
 En palabras simples, la notación Big O no porporciona una medición exacta del tiempo de ejecución, sino que dice el número de operaciones que hará un algoritmo. Este establece un tiempo de ejecución en el peor de los casos. 
 
 En términos matemáticos, describe el límite de una función cuando los argumentos de entrada tienden al infinito o a un valor en particular.
+
 ---
 
 ## ¿Por qué es importante?
@@ -37,7 +38,7 @@ def obtener_primer_elemento(lista):
   return lista[0]  # O(1) temporal, O(1) espacial
 ```
 
-### 2. $O(Log n)$ — Tiempo Logarítmico
+### 2. $O(Log  n)$ — Tiempo Logarítmico
 * **Qué significa:** El tiempo de ejecución depende del logaritmo del tamaño de la entrada de datos. Por ejemplo, los algoritmos que dividen los datos de entrada en mitades siguen esta notación.
 * **Ejemplo en Python:** La búsqueda binaria, en la que dividimos la lista inicial por la mitad recursivamente hasta encontrar el valor que buscamos es un ejemplo de tiempo logarítmico.
 ```python
