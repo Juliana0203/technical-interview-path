@@ -1,3 +1,4 @@
+from yaml import Node
 
 def __init__(self, key, value):
     self.key = key
@@ -6,12 +7,6 @@ def __init__(self, key, value):
 
 
 class HashTable:
-
-  def __init__(self, capacity=10):
-    self.capacity = capacity
-    self.size = 0
-    # Array de listas enlazadas para manejar colisiones (Chaining)
-    self.buckets = [None] * self.capacity
 
   def _hash(self, key) -> int:
     """Función hash para convertir cualquier clave en un índice válido."""
